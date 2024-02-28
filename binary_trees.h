@@ -92,4 +92,7 @@ int binary_tree_is_perfect(const binary_tree_t *tree);
 /* Task 17. Sibling */
 binary_tree_t *binary_tree_sibling(binary_tree_t *node);
 
+/* Task 18. Uncle */
+binary_tree_t *binary_tree_uncle(binary_tree_t *node);
+
 #endif /* BINARY_TREES_H */
