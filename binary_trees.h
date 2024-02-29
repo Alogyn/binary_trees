@@ -123,4 +123,7 @@ bst_t *array_to_bst(int *array, size_t size);
 /* Task 27. BST - Search (Advanced) */
 bst_t *bst_search(const bst_t *tree, int value);
 
+/* Task 28. BST - Remove (Advanced) */
+bst_t *bst_remove(bst_t *root, int value);
+
 #endif /* BINARY_TREES_H */
