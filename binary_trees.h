@@ -104,4 +104,7 @@ void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int));
 /* Task 21. Is complete (Advanced) */
 int binary_tree_is_complete(const binary_tree_t *tree);
 
+/* Task 22. Rotate left (Advanced) */
+binary_tree_t *binary_tree_rotate_left(binary_tree_t *tree);
+
 #endif /* BINARY_TREES_H */
