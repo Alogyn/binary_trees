@@ -120,4 +120,7 @@ bst_t *bst_insert(bst_t **tree, int value);
 /* Task 26. BST - Array to BST (Advanced) */
 bst_t *array_to_bst(int *array, size_t size);
 
+/* Task 27. BST - Search (Advanced) */
+bst_t *bst_search(const bst_t *tree, int value);
+
 #endif /* BINARY_TREES_H */
