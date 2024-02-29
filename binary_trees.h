@@ -4,6 +4,7 @@
 /* Standard libreries */
 #include <stdlib.h>
 #include <stddef.h>
+#include <limits.h>
 
 /* Data structures & types */
 
@@ -109,5 +110,8 @@ binary_tree_t *binary_tree_rotate_left(binary_tree_t *tree);
 
 /* Task 23. Rotate right (Advanced) */
 binary_tree_t *binary_tree_rotate_right(binary_tree_t *tree);
+
+/* Task 24. Is BST (Advanced) */
+int binary_tree_is_bst(const binary_tree_t *tree);
 
 #endif /* BINARY_TREES_H */
