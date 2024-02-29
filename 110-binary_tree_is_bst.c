@@ -23,7 +23,8 @@ int bst_helper(const binary_tree_t *tree, int min, int max)
 
 	/* Recursively check the left and right subtrees */
 	/* with updated constraints */
-	return (bst_helper(tree->left, min, tree->n) && bst_helper(tree->right, tree->n, max));
+	return (bst_helper(tree->left, min, tree->n) &&
+			bst_helper(tree->right, tree->n, max));
 }
 
 /**
