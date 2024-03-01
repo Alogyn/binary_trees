@@ -147,4 +147,7 @@ int binary_tree_is_heap(const binary_tree_t *tree);
 /* Task 37. Heap - Insert (Advanced) */
 heap_t *heap_insert(heap_t **root, int value);
 
+/* Task 38. Heap - Array to Binary Heap (Advanced) */
+heap_t *array_to_heap(int *array, size_t size);
+
 #endif /* BINARY_TREES_H */
