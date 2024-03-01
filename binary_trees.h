@@ -135,4 +135,7 @@ avl_t *avl_insert(avl_t **tree, int value);
 /* Task 32. AVL - Array to AVL (Advanced) */
 avl_t *array_to_avl(int *array, size_t size);
 
+/* Task 33. AVL - Remove (Advanced) */
+avl_t *avl_remove(avl_t *root, int value);
+
 #endif /* BINARY_TREES_H */
