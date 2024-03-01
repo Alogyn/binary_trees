@@ -10,6 +10,7 @@
 
 
 /* Data structures & types */
+
 /**
  * struct binary_tree_s - Binary tree node
  *
