@@ -138,4 +138,7 @@ avl_t *array_to_avl(int *array, size_t size);
 /* Task 33. AVL - Remove (Advanced) */
 avl_t *avl_remove(avl_t *root, int value);
 
+/* Task 34. AVL - From sorted array (Advanced) */
+avl_t *sorted_array_to_avl(int *array, size_t size);
+
 #endif /* BINARY_TREES_H */
