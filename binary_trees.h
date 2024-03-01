@@ -150,4 +150,7 @@ heap_t *heap_insert(heap_t **root, int value);
 /* Task 38. Heap - Array to Binary Heap (Advanced) */
 heap_t *array_to_heap(int *array, size_t size);
 
+/* Task 39. Heap - Extract (Advanced) */
+int heap_extract(heap_t **root);
+
 #endif /* BINARY_TREES_H */
