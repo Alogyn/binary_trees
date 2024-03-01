@@ -6,8 +6,8 @@
 #include <stddef.h>
 #include <limits.h>
 
-/* Data structures & types */
 
+/* Data structures & types */
 /**
  * struct binary_tree_s - Binary tree node
  *
@@ -140,5 +140,8 @@ avl_t *avl_remove(avl_t *root, int value);
 
 /* Task 34. AVL - From sorted array (Advanced) */
 avl_t *sorted_array_to_avl(int *array, size_t size);
+
+/* Task 36. Is Binary heap (Advanced) */
+int binary_tree_is_heap(const binary_tree_t *tree);
 
 #endif /* BINARY_TREES_H */
