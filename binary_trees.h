@@ -4,6 +4,8 @@
 /* Standard libreries */
 #include <stdlib.h>
 #include <stddef.h>
+#include <stdio.h>
+#include <string.h>
 #include <limits.h>
 
 
@@ -152,5 +154,8 @@ heap_t *array_to_heap(int *array, size_t size);
 
 /* Task 39. Heap - Extract (Advanced) */
 int heap_extract(heap_t **root);
+
+/* Task 40. Heap - Sort (Advanced) */
+int *heap_to_sorted_array(heap_t *heap, size_t *size);
 
 #endif /* BINARY_TREES_H */
