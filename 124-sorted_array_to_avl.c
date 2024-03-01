@@ -10,7 +10,7 @@
   * @size: Size of array
   *
   * @mode: 1 to adding on the left, 2 to adding on the right
-  
+  *
   * Return: None
   */
 
