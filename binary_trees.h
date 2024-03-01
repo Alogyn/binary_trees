@@ -132,4 +132,7 @@ int binary_tree_is_avl(const binary_tree_t *tree);
 /* Task 31. AVL - Insert (Advanced) */
 avl_t *avl_insert(avl_t **tree, int value);
 
+/* Task 32. AVL - Array to AVL (Advanced) */
+avl_t *array_to_avl(int *array, size_t size);
+
 #endif /* BINARY_TREES_H */
